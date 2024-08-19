@@ -91,14 +91,16 @@ a {
   color: #fff;
   border-radius: 5px;
   text-align: center;
+  outline: none;
+  border: none;
 }
-.th-btn.outline{
-    background-color: transparent;
-    border: 1px solid #fff;
+.th-btn.outline {
+  background-color: transparent;
+  border: 1px solid #9da0a6;
 }
-.th-btn.fill{
-    background: var(--th-gradient-1);
-    border: 1px solid transparent;
+.th-btn.fill {
+  background: var(--th-gradient-1);
+  border: 1px solid transparent;
 }
 /* Scroll Bar style start */
 
@@ -164,3 +166,76 @@ a {
   color: #fff;
 }
 /* ------------- Header Section End ------------- */
+
+/* 04.Hero Section Start ------------------------------ */
+.hero {
+  padding: 50px 0px;
+}
+.hero-head .blue {
+  color: var(--th-color-1);
+}
+.hero-head .hehe-text {
+  font-family: var(--font-Poppins);
+  font-size: var(--th-fs-4);
+  color: var(--th-color-4);
+}
+.hero-box {
+  margin-top: 30px;
+  padding: 20px;
+  position: relative;
+}
+.hero-box img#top-right {
+  max-width: 130px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.hero-box img#bottom-left {
+  max-width: 130px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.hero-inner-box {
+  position: relative;
+  z-index: 10;
+  padding: 40px;
+  background: #f9fbfe;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.hero-inner-box li {
+  font-family: var(--font-Poppins);
+  font-size: var(--th-fs-5);
+  font-weight: 600;
+  line-height: 140%;
+}
+.hero-inner-box li .tab {
+  padding: 10px 20px;
+  background-color: var(--th-color-3);
+  border-radius: 50px;
+}
+.hero-inner-box textarea {
+  padding: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px dashed #7a86ff;
+}
+.hero-inner-box textarea::placeholder {
+  font-family: var(--font-Roboto);
+  font-size: var(--th-fs-3);
+  color: var(--th-color-4);
+  font-weight: 400;
+  line-height: 140%;
+}
+.hero-inner-box .th-btn.outline {
+  color: var(--th-color-2);
+}
+.hero-inner-box img{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+/* ------------- Hero Section End ------------- */
