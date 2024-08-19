@@ -24,102 +24,143 @@ Spacing System
 
 -------------------------------------------------------*/
 
-
 /* 01. Google Font Start ------------------------------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* ------------- Google Font End ------------- */
-
 
 /* 02.base Start ------------------------------ */
 
 :root {
-    --primary: ;
-    --secondary: ;
-    --font-family1: ;
-    --font-family2: ;
+  --th-color-1: #9185ff;
+  --th-color-2: #000000;
+  --th-color-3: #e8f2fc;
+  --th-color-4: #7d7d7d;
+  --th-color-5: #002b45;
+  --th-fs-1: 47px;
+  --th-fs-2: 30px;
+  --th-fs-3: 20px;
+  --th-fs-4: 16px;
+  --th-fs-5: 14px;
+  --th-gradient-1: linear-gradient(
+    90.83deg,
+    #ba83ff -5.22%,
+    #9785ff 49.07%,
+    #7387ff 103.36%
+  );
+  --th-gradient-2: linear-gradient(
+    90.83deg,
+    #ba83ff -5.22%,
+    #9785ff 49.07%,
+    #7387ff 103.36%
+  );
+  --font-Roboto: "Roboto", sans-serif;
+  --font-Poppins: "Poppins", sans-serif;
+  --font-Montserrat: "Montserrat Alternates", sans-serif;
 }
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    color: #222;
-    font-size: 1.6rem;
-}
-
-.text-font {
-    font-family: '', sans-serif;
-}
-
-.text-primary {
-    color: var(--primary);
-}
-
-.text-secondary {
-    color: var(--secondary);
-}
-
-.bg-primary {
-    background-color: var(--primary);
-}
-
-.bg-secondary {
-    background-color: var(--secondary);
-}
-
-a {
-    text-decoration: none;
-    color: #222;
-}
-
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: -1px;
-    line-height: 1.2;
+h3 {
+  font-family: var(--font-Montserrat);
+  font-weight: 700;
+  line-height: 140%;
 }
-
+h1 {
+  font-size: var(--th-fs-1);
+}
+h2 {
+  font-size: var(--th-fs-2);
+}
+h3 {
+  font-size: var(--th-fs-3);
+}
 p {
-    font-size: 1.8rem;
-    font-weight: 400;
+  font-size: var(--th-fs-4);
 }
-
-
+a {
+  text-decoration: none;
+}
+.th-btn {
+  display: block;
+  padding: 15px 30px;
+  font-family: var(--font-Montserrat);
+  font-size: var(--th-fs-5);
+  font-weight: 500;
+  line-height: 140%;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.th-btn.outline{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.th-btn.fill{
+    background: var(--th-gradient-1);
+    border: 1px solid transparent;
+}
 /* Scroll Bar style start */
 
 ::-webkit-scrollbar {
-    /* width */
-    /* width: 10px; */
+  /* width */
+  /* width: 10px; */
 }
 
 ::-webkit-scrollbar:hover {
-    /* width: 50px; */
+  /* width: 50px; */
 }
 
- ::-webkit-scrollbar-track {
-    /* Track */
-    /* background-color: ; */
+::-webkit-scrollbar-track {
+  /* Track */
+  /* background-color: ; */
 }
 
- ::-webkit-scrollbar-thumb {
-    /* Handle */
-    /* background-color: ; */
+::-webkit-scrollbar-thumb {
+  /* Handle */
+  /* background-color: ; */
 }
-
 
 /* Scroll Bar style End */
 
-
 /* ------------- base End ------------- */
 
-
-/* 04. Scetion Start ------------------------------ */
-
-
-/* -------------  Scetion  End ------------- */
+/* 03.Header Section Start ------------------------------ */
+.header-contact {
+  background-color: var(--th-color-3);
+  padding: 20px;
+}
+.header-contact span.text {
+  color: var(--th-color-2);
+  font-size: var(--th-fs-5);
+  text-decoration: none;
+}
+.header-contact .fas,
+.header-contact .fab {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--th-gradient-1);
+}
+.header-main {
+  background-color: var(--th-color-5);
+  padding: 20px;
+}
+.logo a {
+  font-family: var(--font-Montserrat);
+  font-size: var(--th-fs-2);
+  font-weight: 700;
+  line-height: 140%;
+  color: #fff;
+}
+.menu li a {
+  font-family: var(--font-Montserrat);
+  font-size: var(--th-fs-5);
+  font-weight: 500;
+  line-height: 140%;
+  color: #fff;
+}
+/* ------------- Header Section End ------------- */
