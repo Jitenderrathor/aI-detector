@@ -165,6 +165,108 @@ a {
   line-height: 140%;
   color: #fff;
 }
+.menu-item{
+  position: relative;
+}
+.menu-item-drop{
+  padding: 10px 0px !important;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  /* bottom: 0; */
+  width:150px;
+  user-select: none;
+  border: 1px solid #e5e5e5;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all .5s;
+}
+.menu-item:hover .menu-item-drop{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(10px);
+}
+.menu-item-drop a{
+  color: var(--th-color-2) !important;
+}
+.menu-item-drop li{
+  padding: 0px 20px;
+  /* background-color: var(--th-color-3); */
+  transition: all .5s;
+}
+.menu-item-drop li:hover{
+  background-color: var(--th-color-3);
+}
+.mobile-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: var(--th-color-5);
+  padding: 20px ; 
+  z-index: 100;
+  transform: translateX(-100%);
+transition: all .5s;
+}
+.mobile-menu.active{
+  transform: translateX(0%);
+}
+.mobile-menu .logo {
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+.hamburger {
+ max-width: 40px;
+ cursor: pointer;
+}
+.mobile-menu .close {
+  margin-bottom: 20px; 
+  text-align: right;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+.mobile-menu .menu ul{
+  display: block !important; 
+
+}
+
+.mobile-menu .menu ul li{
+  min-width: 200px;
+  transition: all .5s;
+}
+.mobile-menu .menu ul li a{
+  padding: 10px;
+  display: block;
+  transition: all .5s;
+}
+.mobile-menu .menu ul li a:hover{
+  background-color: #33556a;
+}
+.mobile-menu .menu-item-drop{
+ position: relative;
+ transform: translateY(0px);
+ visibility: visible;
+ opacity: 1;
+ width: 100%;
+ border-radius: 0px;
+ /* background-color: transparent; */
+ border: none;
+ height: 0px;
+ padding: 0 !important;
+ overflow: hidden;
+}
+.mobile-menu .menu-item-drop.active{
+  height: 120px;
+ /* padding: 0 !important; */
+}
+.mobile-menu .menu-item-drop a:hover{
+  background-color: var(--th-color-3) !important;
+}
+.mobile-menu:hover .menu-item-drop{
+ transform: translateY(0px);
+}
 /* ------------- Header Section End ------------- */
 
 /* 04.Hero Section Start ------------------------------ */

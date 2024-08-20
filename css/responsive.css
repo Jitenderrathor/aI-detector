@@ -10,9 +10,48 @@
 
 /* Medium devices (768px and down) */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .hero-inner-box{
+        padding: 30px;
+    }
+}
 
 
 /* Small devices (576px and down) */
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    :root {
+        --th-fs-1: 47px;
+        --th-fs-2: 30px;
+        --th-fs-3: 20px;
+        --th-fs-4: 16px;
+        --th-fs-5: calc(14px*.8);
+      }
+    .header-contact{
+        padding: 10px 0px;
+    }
+    .header-contact .fas, .header-contact .fab {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .th-btn {
+        padding: 10px 20px;
+    }
+    .header-main{
+        padding: 15px 0px;
+    }
+    .hamburger {
+        max-width: 30px;
+    }
+    .mobile-menu {
+        padding: 10px;
+    }
+    .hero-inner-box li .tab{
+        padding: 10px;
+    }
+    .hero-box{
+        padding: 10px;
+    }
+}
