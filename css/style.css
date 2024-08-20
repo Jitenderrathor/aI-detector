@@ -63,7 +63,7 @@ body {
   overflow-x: hidden !important;
 }
 .container-xxl {
-  padding: 0px 20px !important;
+  padding: 0px 25px !important;
 }
 h1,
 h2,
@@ -523,3 +523,37 @@ a {
   margin: 0px;
 }
 /* ------------- Testimonial Section End ------------- */
+
+
+/* 10.Footer Section Start ------------------------------ */
+#footer{
+  background-color: var(--th-color-3);
+  padding-top: 100px;
+}
+.fous-item{
+  max-width: 30px;
+}
+#footer h2{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.foot-link li{
+  margin-top: 10px;
+}
+.foot-link a{
+  font-family: var(--font-Poppins);
+  font-size: var(--th-fs-4);
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--th-color-2);
+}
+.foot-link  .fas {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--th-gradient-1);
+}
+/* ------------- Footer Section End ------------- */
