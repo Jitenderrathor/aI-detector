@@ -5,28 +5,42 @@
 
 /* Large devices (992px and down) */
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .faq-img{
+        max-width: 450px;
+      }
+}
 
 
 /* Medium devices (768px and down) */
 
 @media screen and (max-width: 768px) {
+    :root {
+        --th-fs-1: calc(47px*.8);
+        --th-fs-2: calc(30px*.8);
+        --th-fs-3: calc(20px*.8);
+        --th-fs-4: calc(16px*.8);
+        --th-fs-5: calc(14px*.8);
+      }
     .hero-inner-box{
         padding: 30px;
     }
+    .faq-img{
+        max-width: 250px;
+        bottom: -30px;
+        right: -50px;
+      }
+      .advance-tool img{
+        max-width: 400px;
+        
+      }
 }
 
 
 /* Small devices (576px and down) */
 
 @media screen and (max-width: 576px) {
-    :root {
-        --th-fs-1: 47px;
-        --th-fs-2: 30px;
-        --th-fs-3: 20px;
-        --th-fs-4: 16px;
-        --th-fs-5: calc(14px*.8);
-      }
+    
     .header-contact{
         padding: 10px 0px;
     }
