@@ -102,6 +102,13 @@ a {
   background: var(--th-gradient-1);
   border: 1px solid transparent;
 }
+.sec-head .sec-text{
+  font-family: var(--font-Roboto);
+  font-size: var(--th-fs-5);
+  font-weight: 400;
+  line-height: 140%;
+  color: #7D7D7D;  
+}
 /* Scroll Bar style start */
 
 ::-webkit-scrollbar {
@@ -341,3 +348,81 @@ transition: all .5s;
     margin: auto;
 }
 /* ------------- Hero Section End ------------- */
+
+/* 05.Why Use Ai Section Start ------------------------------ */
+.why-use-ai{
+  padding: 50px 0px;
+  position: relative;
+}
+#why-left{
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+#why-right{
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.why-use-box .slick-dots{
+  bottom: -40px;
+}
+.why-use-box .slick-dots li.slick-active button:before{
+  color: #7E86FF;
+}
+.why-use-box .slick-dots li button:before{
+  font-size: 16px;
+}
+.why-use-box .col-sm-6:nth-child(1) .whus-box{
+  border: 0.46px solid #403DAC;
+}
+.why-use-box .col-sm-6:nth-child(2) .whus-box{
+  border: 0.46px solid #FB825F;
+}
+.why-use-box .col-sm-6:nth-child(3) .whus-box{
+  border: 0.46px solid #02E2F1;
+}
+.why-use-box .col-sm-6:nth-child(4) .whus-box{
+  border: 0.46px solid #354785;
+}
+.why-use-box .col-sm-6:nth-child(5) .whus-box{
+  border: 0.46px solid #354785;
+}
+.why-use-box .col-sm-6:nth-child(6) .whus-box{
+  border: 0.46px solid var(--th-color-1);
+}
+.whus-box{
+  background-color: #fff;
+  margin-top: 80px;
+  padding: 30px;
+  padding-bottom: 0px;
+  border: 1px solid var(--th-color-3);
+  /* height: 100%; */
+  position: relative;
+  z-index: 10;
+}
+.whus-inner{
+  position: relative;
+  transform: translateY(-30px);
+}
+.whus-img{
+  max-width: 80px;
+  position: relative;
+  transform: translateY(-35px);
+
+}
+/* ------------- Why Use Ai Section End ------------- */
+
+
+/* 06.AI Detectors vs. Plagiarism Checkers Section Start ------------------------------ */
+.vs-checkers{
+  padding: 50px 0px;
+  position: relative;
+}
+.vsch-box{
+  position: relative;
+  z-index: 10;
+}
+/* ------------- AI Detectors vs. Plagiarism Checkers Section End ------------- */
