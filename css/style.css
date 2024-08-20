@@ -59,10 +59,10 @@ Spacing System
   --font-Poppins: "Poppins", sans-serif;
   --font-Montserrat: "Montserrat Alternates", sans-serif;
 }
-body{
+body {
   overflow-x: hidden !important;
 }
-.container-xxl{
+.container-xxl {
   padding: 0px 20px !important;
 }
 h1,
@@ -108,16 +108,16 @@ a {
   background: var(--th-gradient-1);
   border: 1px solid transparent;
 }
-.sec-head{
+.sec-head {
   position: relative;
   z-index: 5;
 }
-.sec-head .sec-text{
+.sec-head .sec-text {
   font-family: var(--font-Roboto);
   font-size: var(--th-fs-5);
   font-weight: 400;
   line-height: 120%;
-  color: #7D7D7D;  
+  color: #7d7d7d;
 }
 /* Scroll Bar style start */
 
@@ -182,51 +182,51 @@ a {
   line-height: 120%;
   color: #fff;
 }
-.menu-item{
+.menu-item {
   position: relative;
 }
-.menu-item-drop{
+.menu-item-drop {
   padding: 10px 0px !important;
   border-radius: 10px;
   background-color: #fff;
   position: absolute;
   /* bottom: 0; */
-  width:150px;
+  width: 150px;
   user-select: none;
   border: 1px solid #e5e5e5;
   visibility: hidden;
   opacity: 0;
   transform: translateY(50px);
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.menu-item:hover .menu-item-drop{
+.menu-item:hover .menu-item-drop {
   visibility: visible;
   opacity: 1;
   transform: translateY(10px);
 }
-.menu-item-drop a{
+.menu-item-drop a {
   color: var(--th-color-2) !important;
 }
-.menu-item-drop li{
+.menu-item-drop li {
   padding: 0px 20px;
   /* background-color: var(--th-color-3); */
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.menu-item-drop li:hover{
+.menu-item-drop li:hover {
   background-color: var(--th-color-3);
 }
-.mobile-menu{
+.mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
   background-color: var(--th-color-5);
-  padding: 20px ; 
+  padding: 20px;
   z-index: 100;
   transform: translateX(-100%);
-transition: all .5s;
+  transition: all 0.5s;
 }
-.mobile-menu.active{
+.mobile-menu.active {
   transform: translateX(0%);
 }
 .mobile-menu .logo {
@@ -234,55 +234,54 @@ transition: all .5s;
   padding: 0px 10px;
 }
 .hamburger {
- max-width: 40px;
- cursor: pointer;
+  max-width: 40px;
+  cursor: pointer;
 }
 .mobile-menu .close {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   text-align: right;
   color: #fff;
   cursor: pointer;
   font-size: 20px;
 }
-.mobile-menu .menu ul{
-  display: block !important; 
-
+.mobile-menu .menu ul {
+  display: block !important;
 }
 
-.mobile-menu .menu ul li{
+.mobile-menu .menu ul li {
   min-width: 200px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.mobile-menu .menu ul li a{
+.mobile-menu .menu ul li a {
   padding: 10px;
   display: block;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.mobile-menu .menu ul li a:hover{
+.mobile-menu .menu ul li a:hover {
   background-color: #33556a;
 }
-.mobile-menu .menu-item-drop{
- position: relative;
- transform: translateY(0px);
- visibility: visible;
- opacity: 1;
- width: 100%;
- border-radius: 0px;
- /* background-color: transparent; */
- border: none;
- height: 0px;
- padding: 0 !important;
- overflow: hidden;
+.mobile-menu .menu-item-drop {
+  position: relative;
+  transform: translateY(0px);
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  border-radius: 0px;
+  /* background-color: transparent; */
+  border: none;
+  height: 0px;
+  padding: 0 !important;
+  overflow: hidden;
 }
-.mobile-menu .menu-item-drop.active{
+.mobile-menu .menu-item-drop.active {
   height: 120px;
- /* padding: 0 !important; */
+  /* padding: 0 !important; */
 }
-.mobile-menu .menu-item-drop a:hover{
+.mobile-menu .menu-item-drop a:hover {
   background-color: var(--th-color-3) !important;
 }
-.mobile-menu:hover .menu-item-drop{
- transform: translateY(0px);
+.mobile-menu:hover .menu-item-drop {
+  transform: translateY(0px);
 }
 /* ------------- Header Section End ------------- */
 
@@ -352,58 +351,58 @@ transition: all .5s;
 .hero-inner-box .th-btn.outline {
   color: var(--th-color-2);
 }
-.hero-inner-box img{
-    width: 100%;
-    max-width: 300px;
-    margin: auto;
+.hero-inner-box img {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
 }
 /* ------------- Hero Section End ------------- */
 
 /* 05.Why Use Ai Section Start ------------------------------ */
-.why-use-ai{
+.why-use-ai {
   padding: 50px 0px;
   position: relative;
 }
-#why-left{
+#why-left {
   max-width: 400px;
   position: absolute;
   top: 0;
   left: 0px;
 }
-#why-right{
+#why-right {
   max-width: 400px;
   position: absolute;
   top: 0;
   right: 0px;
 }
-.why-use-box .slick-dots{
+.why-use-box .slick-dots {
   bottom: -40px;
 }
-.why-use-box .slick-dots li.slick-active button:before{
-  color: #7E86FF;
+.why-use-box .slick-dots li.slick-active button:before {
+  color: #7e86ff;
 }
-.why-use-box .slick-dots li button:before{
+.why-use-box .slick-dots li button:before {
   font-size: 16px;
 }
-.why-use-box .col-sm-6:nth-child(1) .whus-box{
-  border: 0.46px solid #403DAC;
+.why-use-box .col-sm-6:nth-child(1) .whus-box {
+  border: 0.46px solid #403dac;
 }
-.why-use-box .col-sm-6:nth-child(2) .whus-box{
-  border: 0.46px solid #FB825F;
+.why-use-box .col-sm-6:nth-child(2) .whus-box {
+  border: 0.46px solid #fb825f;
 }
-.why-use-box .col-sm-6:nth-child(3) .whus-box{
-  border: 0.46px solid #02E2F1;
+.why-use-box .col-sm-6:nth-child(3) .whus-box {
+  border: 0.46px solid #02e2f1;
 }
-.why-use-box .col-sm-6:nth-child(4) .whus-box{
+.why-use-box .col-sm-6:nth-child(4) .whus-box {
   border: 0.46px solid #354785;
 }
-.why-use-box .col-sm-6:nth-child(5) .whus-box{
+.why-use-box .col-sm-6:nth-child(5) .whus-box {
   border: 0.46px solid #354785;
 }
-.why-use-box .col-sm-6:nth-child(6) .whus-box{
+.why-use-box .col-sm-6:nth-child(6) .whus-box {
   border: 0.46px solid var(--th-color-1);
 }
-.whus-box{
+.whus-box {
   background-color: #fff;
   margin-top: 80px;
   padding: 30px;
@@ -413,51 +412,49 @@ transition: all .5s;
   position: relative;
   z-index: 10;
 }
-.whus-inner{
+.whus-inner {
   position: relative;
   transform: translateY(-30px);
 }
-.whus-img{
+.whus-img {
   max-width: 80px;
   position: relative;
   transform: translateY(-35px);
-
 }
 /* ------------- Why Use Ai Section End ------------- */
 
-
 /* 06.AI Detectors vs. Plagiarism Checkers Section Start ------------------------------ */
-.vs-checkers{
+.vs-checkers {
   padding: 50px 0px;
   position: relative;
 }
-.vsch-box{
+.vsch-box {
   position: relative;
   z-index: 10;
 }
 /* ------------- AI Detectors vs. Plagiarism Checkers Section End ------------- */
 
 /* 07.FAQs Section Start ------------------------------ */
-.faqs{
+.faqs {
   padding: 50px 0px;
   position: relative;
   background: var(--th-gradient-2);
 }
-.faqs h1{
+.faqs h1 {
   color: #fff;
 }
-.faq-box{
+.faq-box {
   color: #fff;
   cursor: pointer;
   user-select: none;
   position: relative;
   z-index: 5;
 }
-.faq-icon{
+.faq-icon {
   min-width: 10px !important;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.faq-img{
+.faq-img {
   position: absolute;
   bottom: 0px;
   right: -10px;
@@ -465,13 +462,64 @@ transition: all .5s;
 }
 /* ------------- FAQs Section End ------------- */
 
-
 /* 08.Advance Tool Section Start ------------------------------ */
-.advance-tool{
+.advance-tool {
   padding: 50px 0px;
   position: relative;
 }
-.advance-tool h1 .blue{
-color: #7C87FF;
+.advance-tool h1 .blue {
+  color: #7c87ff;
 }
 /* ------------- Advance Tool Section End ------------- */
+
+/* 09.Testimonial Section Start ------------------------------ */
+.testimonial {
+  padding: 50px 0px;
+  position: relative;
+  background: var(--th-gradient-1);
+}
+.testimonial .sec-head {
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+}
+.test-box {
+  background-color: #fff;
+  padding: 20px;
+}
+.test-box img {
+  max-width: 50px;
+  margin-bottom: 15px;
+}
+.stars {
+  color: #ffc107;
+}
+.testimonial-slider .slick-dots {
+  bottom: -50px;
+}
+.testimonial-slider .slick-dots li button:before {
+  font-size: 16px;
+  color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.testimonial-slider .slick-dots li.slick-active button:before {
+  background-color: #fff;
+  color: #fff;
+}
+.testimonial .ready-get {
+  background-color: var(--th-color-2);
+  padding: 20px 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  transform: translateY(100%);
+}
+.testimonial .ready-get h2 {
+  font-weight: 400;
+  font-family: var(--font-Poppins);
+  margin: 0px;
+}
+/* ------------- Testimonial Section End ------------- */
