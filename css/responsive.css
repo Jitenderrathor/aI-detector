@@ -71,4 +71,10 @@
     .testimonial .ready-get{
         padding: 20px;
     }
+    .testimonial .ready-get{
+        border-radius: 0px;
+    }
+    .container-xxl{
+            padding: 0px 15px !important;
+    }
 }

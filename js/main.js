@@ -4,7 +4,7 @@ $("#footer").load("footer.html");
 
 
 // AOS Js (Reveal Animation)
-// AOS.init();
+AOS.init();
 
 
 
