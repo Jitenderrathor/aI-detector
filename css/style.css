@@ -99,14 +99,24 @@ a {
   text-align: center;
   outline: none;
   border: none;
+  transition: all .5s;
 }
 .th-btn.outline {
   background-color: transparent;
   border: 1px solid #9da0a6;
 }
+.th-btn.outline:hover{
+  background: var(--th-color-1);
+  color: #fff !important;
+}
 .th-btn.fill {
   background: var(--th-gradient-1);
   border: 1px solid transparent;
+}
+.th-btn.fill:hover{
+  background: transparent;
+  border: 1px solid #9da0a6;
+  color: #000000;
 }
 .sec-head {
   position: relative;
@@ -387,20 +397,38 @@ a {
 .why-use-box .col-sm-6:nth-child(1) .whus-box {
   border: 0.46px solid #403dac;
 }
+.why-use-box .col-sm-6:nth-child(1) .whus-box:hover{
+  background-color: rgba(65, 61, 172, 0.2);
+}
 .why-use-box .col-sm-6:nth-child(2) .whus-box {
   border: 0.46px solid #fb825f;
+}
+.why-use-box .col-sm-6:nth-child(2) .whus-box:hover{
+  background-color: rgba(251, 129, 95, 0.2);
 }
 .why-use-box .col-sm-6:nth-child(3) .whus-box {
   border: 0.46px solid #02e2f1;
 }
+.why-use-box .col-sm-6:nth-child(3) .whus-box:hover{
+  background-color: rgba(2, 225, 241, 0.2);
+}
 .why-use-box .col-sm-6:nth-child(4) .whus-box {
   border: 0.46px solid #354785;
+}
+.why-use-box .col-sm-6:nth-child(4) .whus-box:hover{
+  background-color: rgba(53, 70, 133, 0.2);
 }
 .why-use-box .col-sm-6:nth-child(5) .whus-box {
   border: 0.46px solid #354785;
 }
+.why-use-box .col-sm-6:nth-child(5) .whus-box:hover{
+  background-color: rgba(53, 70, 133, 0.2);
+}
 .why-use-box .col-sm-6:nth-child(6) .whus-box {
   border: 0.46px solid var(--th-color-1);
+}
+.why-use-box .col-sm-6:nth-child(6) .whus-box:hover{
+  background-color: rgba(145, 133, 255, 0.2);
 }
 .whus-box {
   background-color: #fff;
@@ -411,6 +439,7 @@ a {
   /* height: 100%; */
   position: relative;
   z-index: 10;
+  transition: all .5s;
 }
 .whus-inner {
   position: relative;
@@ -521,6 +550,9 @@ a {
   font-weight: 400;
   font-family: var(--font-Poppins);
   margin: 0px;
+}
+.testimonial .ready-get .th-btn.fill:hover{
+  color: #fff !important;
 }
 /* ------------- Testimonial Section End ------------- */
 
