@@ -44,6 +44,9 @@
     .header-contact{
         padding: 10px 0px;
     }
+    .hero-inner-box{
+        padding: 20px;
+    }
     .header-contact .fas, .header-contact .fab {
         width: 20px;
         height: 20px;
@@ -63,10 +66,10 @@
         padding: 10px;
     }
     .hero-inner-box li .tab{
-        padding: 10px;
+        padding: 6px;
     }
     .hero-box{
-        padding: 10px;
+        padding: 7px;
     }
     .testimonial .ready-get{
         padding: 20px;
