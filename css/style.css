@@ -308,7 +308,7 @@ a {
   color: var(--th-color-4);
 }
 .hero-box {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
   position: relative;
 }
@@ -363,7 +363,7 @@ a {
 }
 .hero-inner-box img {
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   margin: auto;
 }
 /* ------------- Hero Section End ------------- */
