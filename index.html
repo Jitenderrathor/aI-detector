@@ -114,14 +114,7 @@
                 </div>
             </div>
         </div>
-        <script>
-            $('.mobile-menu .menu-item').click(function(){
-                $(this).find('.menu-item-drop').toggleClass('active')
-            })
-            $('.hamburger,.close').click(function(){
-                $(".mobile-menu").toggleClass('active')
-            })
-        </script>
+        
     </header>
     <!-- Header Section End -->
 
@@ -753,6 +746,14 @@
                 // instead of a settings object
             ]
         });
+    </script>
+    <script>
+        $('.mobile-menu .menu-item').click(function(){
+            $(this).find('.menu-item-drop').toggleClass('active')
+        })
+        $('.hamburger,.close').click(function(){
+            $(".mobile-menu").toggleClass('active')
+        })
     </script>
 </body>
 
